@@ -3,11 +3,11 @@ package helloGit;
 public class HiGit {
 
 	public static void main(String[] args) {
-		System.out.println("Hello, git!");
-		System.out.println("WASa");
-		System.out.println("ASD");
-		System.out.println("Hello?");
-		System.out.println("Hello world");
+		String[] names = {"Bilbo", "Frodo", "Aragorn", "Legolas", "Gandalf"};
+		
+		for(int i = 0;i<names.length;i++) {
+			System.out.format("Hello, %s\n", names[i]);
+		}
 	}
 
 }
