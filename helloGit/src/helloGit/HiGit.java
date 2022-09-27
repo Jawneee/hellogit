@@ -7,6 +7,7 @@ public class HiGit {
 		System.out.println("WASa");
 		System.out.println("ASD");
 		System.out.println("Hello?");
+		System.out.println("Hello world");
 	}
 
 }
